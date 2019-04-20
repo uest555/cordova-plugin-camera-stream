@@ -57,14 +57,14 @@ class CameraStream: CDVPlugin, AVCaptureVideoDataOutputSampleBufferDelegate {
     
     @objc(pause:)
     func pause(command: CDVInvokedUrlCommand){
-        if session?.isRunning {
+        if session?.isRunning == true {
             session?.stopRunning()
         }
     }
     
     @objc(resume:)
     func resume(command: CDVInvokedUrlCommand){
-        if session?.isRunning {
+        if session?.isRunning == true {
             return
         }
         session?.startRunning()
