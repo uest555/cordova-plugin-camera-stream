@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/elevationsoftware/cordova-plugin-camera-stream.git"
+    "url": "git+https://github.com/uest555/cordova-plugin-camera-stream.git"
   },
   "keywords": [
     "ecosystem:cordova",
@@ -19,9 +19,9 @@
   "author": "Elevated Software",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/elevationsoftware/cordova-plugin-camera-stream/issues"
+    "url": "https://github.com/uest555/cordova-plugin-camera-stream/issues"
   },
-  "homepage": "https://github.com/elevationsoftware/cordova-plugin-camera-stream#readme",
+  "homepage": "https://github.com/uest555/cordova-plugin-camera-stream#readme",
   "engines": {
     "cordovaDependencies": {
       ">4.0.0": { "cordova-ios": ">4.0.0" }
